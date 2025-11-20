@@ -1,4 +1,6 @@
 import Heading from "./pages/heading";
+import MainParagraph from "./pages/mainparagraph/page";
+import TailwandTypograhy from "./pages/typography/page";
 
 export default function Home() {
   const users = [
@@ -32,6 +34,8 @@ export default function Home() {
         </div>
       </div>
       {/* <Heading /> */}
+      {/* <MainParagraph /> */}
+      <TailwandTypograhy />
     </>
   );
 }
